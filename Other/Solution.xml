@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21074.129" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>PracticeSolution</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="PracticeSolution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>owaisshahab</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="OwaisShahab" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>owsh</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>47627</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="bookableresource" behavior="1" />
+      <RootComponent type="1" schemaName="incident" behavior="1" />
+      <RootComponent type="1" schemaName="msdyn_workorder" behavior="1" />
+      <RootComponent type="1" schemaName="opportunity" behavior="1" />
+      <RootComponent type="1" schemaName="owsh_testtable" behavior="0" />
+      <RootComponent type="62" schemaName="owsh_PracticeApp" behavior="0" />
+      <RootComponent type="80" schemaName="owsh_PracticeApp" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="1" schemaName="bookableresource" displayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="1" schemaName="incident" displayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="62" schemaName="owsh_PracticeApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent type="62" schemaName="owsh_PracticeApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="1" schemaName="opportunity" displayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="owsh_PracticeApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="caseorigincode" displayName="Origin" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="casetypecode" displayName="Case Type" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contractdetailid" displayName="Contract Line" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contractid" displayName="Contract" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contractservicelevelcode" displayName="Service Level" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customersatisfactioncode" displayName="Satisfaction" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="followupby" displayName="Follow Up By" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="kbarticleid" displayName="Knowledge Base Article" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="prioritycode" displayName="Priority" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="productid" displayName="Product" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="productserialnumber" displayName="Serial Number" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subjectid" displayName="Subject" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="title" displayName="Case Title" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Products Lookup View" displayName="Active Products Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{58afc3c5-8add-4552-98cb-473bc8f75619}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Contracts" displayName="Active Contracts" parentSchemaName="contract" parentDisplayName="Contract" solution="msdynce_Service (9.0.5.56)" id="{646de3ee-ebfb-4d19-8a44-4a619505e188}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contract Line With Allotments" displayName="Contract Line With Allotments" parentSchemaName="contractdetail" parentDisplayName="Contract Line" solution="msdynce_Service (9.0.5.56)" id="{8fa2705c-7e4c-4c0e-b611-4593b35a4c9e}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Opportunity View Form" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{24b5ce86-1811-44c3-b1ad-90f7ea02d2d7}" />
+        <Dependent type="60" displayName="Quick Opportunity View Form" parentDisplayName="Opportunity" id="{24b5ce86-1811-44c3-b1ad-90f7ea02d2d7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" id="{3e8942a7-ff8e-4634-84ec-8ce174ab807c}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource" id="{3e8942a7-ff8e-4634-84ec-8ce174ab807c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case" parentDisplayName="Case" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Insights" parentDisplayName="Opportunity" solution="SICommon (9.0.2.2027)" id="{595978a6-704c-4aec-aab8-34f3927c1cda}" />
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Opportunity" id="{595978a6-704c-4aec-aab8-34f3927c1cda}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order - Service" parentDisplayName="Work Order" solution="msdyn_FieldService_patch_update (8.8.47.21)" id="{613513a1-322d-4ecc-81bd-bd65640d834c}" />
+        <Dependent type="60" displayName="Work Order - Service" parentDisplayName="Work Order" id="{613513a1-322d-4ecc-81bd-bd65640d834c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{6bfd1f9f-759e-459a-b752-3536e6513d25}" />
+        <Dependent type="60" displayName="Work Order" parentDisplayName="Work Order" id="{6bfd1f9f-759e-459a-b752-3536e6513d25}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order Quick View" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{79c33fb4-7126-41a8-9dff-13e4462c9b19}" />
+        <Dependent type="60" displayName="Work Order Quick View" parentDisplayName="Work Order" id="{79c33fb4-7126-41a8-9dff-13e4462c9b19}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Bookable Resource - Mobile" parentDisplayName="Bookable Resource" solution="FieldService (8.8.0.88)" id="{7be43c5d-9556-4f96-a028-6e8d0c2ff940}" />
+        <Dependent type="60" displayName="Bookable Resource - Mobile" parentDisplayName="Bookable Resource" id="{7be43c5d-9556-4f96-a028-6e8d0c2ff940}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order - Notes" parentDisplayName="Work Order" solution="msdyn_FieldService_patch_update (8.8.47.21)" id="{7fac7159-31a5-4869-8f2f-ee88dd6c0f3a}" />
+        <Dependent type="60" displayName="Work Order - Notes" parentDisplayName="Work Order" id="{7fac7159-31a5-4869-8f2f-ee88dd6c0f3a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Field Service Information" parentDisplayName="Opportunity" solution="FieldService (8.8.0.88)" id="{8335a04b-dc80-44b0-83ab-11ed80f93d3e}" />
+        <Dependent type="60" displayName="Field Service Information" parentDisplayName="Opportunity" id="{8335a04b-dc80-44b0-83ab-11ed80f93d3e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case Quick Create" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8e10b902-0b3e-441c-8b12-88e6c1793848}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case Quick Create" parentDisplayName="Case" id="{8e10b902-0b3e-441c-8b12-88e6c1793848}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case Reference Panel" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8ed8553f-b520-4fe3-b2e7-59eef8301486}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case Reference Panel" parentDisplayName="Case" id="{8ed8553f-b520-4fe3-b2e7-59eef8301486}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case for Interactive experience" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{915f6055-2e07-4276-ae08-2b96c8d02c57}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case for Interactive experience" parentDisplayName="Case" id="{915f6055-2e07-4276-ae08-2b96c8d02c57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+        <Dependent type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="App for Outlook Case Quick Create" parentDisplayName="Case" solution="AppforOutlookPatch (1.2.381)" id="{ac33e173-6502-4816-ab48-c3eefd7be580}" />
+        <Dependent type="60" displayName="App for Outlook Case Quick Create" parentDisplayName="Case" id="{ac33e173-6502-4816-ab48-c3eefd7be580}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case for Multisession experience" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.21074.1004)" id="{b05c1e9c-94d0-46c1-8968-df49b8f33ec7}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case for Multisession experience" parentDisplayName="Case" id="{b05c1e9c-94d0-46c1-8968-df49b8f33ec7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="In Context Form" parentDisplayName="Opportunity" solution="msdynce_DealManager (9.0.210705.0)" id="{ba7f7ad7-e0e7-43aa-be19-5069dd9c60eb}" />
+        <Dependent type="60" displayName="In Context Form" parentDisplayName="Opportunity" id="{ba7f7ad7-e0e7-43aa-be19-5069dd9c60eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order - Customer" parentDisplayName="Work Order" solution="msdyn_FieldService_patch_update (8.8.47.21)" id="{c0ebdf20-f27f-4acc-8c9f-a9a202a5e917}" />
+        <Dependent type="60" displayName="Work Order - Customer" parentDisplayName="Work Order" id="{c0ebdf20-f27f-4acc-8c9f-a9a202a5e917}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order Create" parentDisplayName="Work Order" solution="msdyn_FieldServiceAdminExp (1.0.0.223)" id="{ccf0b34e-a265-4005-bd73-be6f4fe30dd7}" />
+        <Dependent type="60" displayName="Work Order Create" parentDisplayName="Work Order" id="{ccf0b34e-a265-4005-bd73-be6f4fe30dd7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create Work Order" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{e0d97cdc-4c20-4e03-bc2a-6dbc6cb1d2c2}" />
+        <Dependent type="60" displayName="Quick Create Work Order" parentDisplayName="Work Order" id="{e0d97cdc-4c20-4e03-bc2a-6dbc6cb1d2c2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{e3c588ee-8e11-49da-a5fe-3800f3f683de}" />
+        <Dependent type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{e3c588ee-8e11-49da-a5fe-3800f3f683de}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case Card" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{e8f97346-4f58-47de-964f-cbd64a52011b}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case Card" parentDisplayName="Case" id="{e8f97346-4f58-47de-964f-cbd64a52011b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Work Order - Mobile" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{f25cecf6-2f00-4eab-aeef-d773af32e027}" />
+        <Dependent type="60" displayName="Work Order - Mobile" parentDisplayName="Work Order" id="{f25cecf6-2f00-4eab-aeef-d773af32e027}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Case Quick Create for Multisession" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.21074.1004)" id="{f43b46e9-17a4-4443-afc4-141d40a46f22}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Case Quick Create for Multisession" parentDisplayName="Case" id="{f43b46e9-17a4-4443-afc4-141d40a46f22}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{f658c846-f74c-459b-b591-b97558958106}">
+          <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0005)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="owsh_PracticeApp" displayName="PracticeApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0005)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
