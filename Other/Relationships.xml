@@ -4,6 +4,8 @@
   <EntityRelationship Name="lk_owsh_testtable_createdby" />
   <EntityRelationship Name="lk_owsh_testtable_modifiedby" />
   <EntityRelationship Name="owner_owsh_testtable" />
+  <EntityRelationship Name="owsh_account_contact_Account_LookUp" />
+  <EntityRelationship Name="owsh_owsh_testtable_contact" />
   <EntityRelationship Name="team_owsh_testtable" />
   <EntityRelationship Name="user_owsh_testtable" />
 </EntityRelationships>

@@ -35,6 +35,40 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{56357aa7-add9-a798-01c6-2b2be45440e1}" showlabel="true" colspan="1" auto="false" rowspan="8">
+                        <labels>
+                          <label description="Contacts" languagecode="1033" />
+                        </labels>
+                        <control id="TestEntityContactGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{7b989d15-e55d-21c0-46a2-8e48e87a17d7}">
+                          <parameters>
+                            <ViewId>{00000000-0000-0000-00AA-000010001003}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>owsh_owsh_testtable_contact</RelationshipName>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001003}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -79,6 +113,37 @@
           </columns>
         </tab>
       </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

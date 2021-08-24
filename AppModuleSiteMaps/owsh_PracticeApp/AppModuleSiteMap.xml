@@ -13,6 +13,8 @@
         <SubArea Id="NewSubArea_22c317da" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msdyn_workorder" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_eaf2a3ed" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_ddf5984d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="opportunity" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_0cd65b19" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_0b14059" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>
