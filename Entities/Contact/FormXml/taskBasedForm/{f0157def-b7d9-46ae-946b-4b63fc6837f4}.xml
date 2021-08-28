@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f0157def-b7d9-46ae-946b-4b63fc6837f4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5c56efb0-6f9f-4aa2-8042-553d40c9099c}" name="SummaryPage" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <tabheader id="{ccbd7718-307f-4cd0-8534-1e703520fba1}">
+            <rows></rows>
+          </tabheader>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{cb14e48f-7181-4071-b487-e69a59391aab}" name="Details">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+          <tabfooter id="{a665f6c8-0d18-4617-ad89-758fc40dfbf2}">
+            <rows></rows>
+          </tabfooter>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Bussiness Process Flow Contact" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

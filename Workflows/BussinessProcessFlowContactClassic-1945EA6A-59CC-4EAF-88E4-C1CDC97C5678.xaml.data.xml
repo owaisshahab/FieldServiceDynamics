@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1945ea6a-59cc-4eaf-88e4-c1cdc97c5678}" Name="Bussiness Process Flow Contact Classic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BussinessProcessFlowContactClassic-1945EA6A-59CC-4EAF-88E4-C1CDC97C5678.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>owsh_bussinessprocessflowcontact</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Bussiness Process Flow Contact Classic" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{5c0f2ee1-f8d4-4440-9c26-2befa8732e08}">
+      <label languagecode="1033" description="New Stage 1" />
+    </steplabels>
+    <steplabels id="{db1ac7ad-b568-4974-b4fe-6ee14e412f12}">
+      <label languagecode="1033" description="New Step 1" />
+    </steplabels>
+    <steplabels id="{93dec632-ad12-4df7-959a-37c78238ab74}">
+      <label languagecode="1033" description="Company Name" />
+    </steplabels>
+    <steplabels id="{48d31f4c-aca0-4703-9ad6-c50f5d144a12}">
+      <label languagecode="1033" description="New Stage 2" />
+    </steplabels>
+    <steplabels id="{b99d22ea-5f62-4136-9206-39d8e63f5aa1}">
+      <label languagecode="1033" description="New Step 1" />
+    </steplabels>
+    <steplabels id="{145ef0d7-ca99-466a-a73e-7f38373a1bb6}">
+      <label languagecode="1033" description="New Step 2" />
+    </steplabels>
+    <steplabels id="{d3e3beef-23bc-451d-baa2-921868bc1faf}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{89606c2e-04e3-48fd-9f8e-d0948999aca6}">
+      <label languagecode="1033" description="Address 1: Address Type" />
+    </steplabels>
+    <steplabels id="{f4d034c1-e44e-453c-b146-4649694a6805}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{a8f159a7-21bf-4307-9bb2-dbc66fc667f4}">
+      <label languagecode="1033" description="Address 1: Name" />
+    </steplabels>
+  </labels>
+</Workflow>

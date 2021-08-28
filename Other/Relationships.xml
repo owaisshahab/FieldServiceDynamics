@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_contact_owsh_bussinessprocessflowcontact" />
   <EntityRelationship Name="business_unit_owsh_testtable" />
+  <EntityRelationship Name="lk_owsh_bussinessprocessflowcontact_activestageid" />
+  <EntityRelationship Name="lk_owsh_bussinessprocessflowcontact_createdby" />
+  <EntityRelationship Name="lk_owsh_bussinessprocessflowcontact_modifiedby" />
+  <EntityRelationship Name="lk_owsh_bussinessprocessflowcontact_processid" />
   <EntityRelationship Name="lk_owsh_testtable_createdby" />
   <EntityRelationship Name="lk_owsh_testtable_modifiedby" />
+  <EntityRelationship Name="organization_owsh_bussinessprocessflowcontact" />
   <EntityRelationship Name="owner_owsh_testtable" />
   <EntityRelationship Name="owsh_account_contact_Account_LookUp" />
   <EntityRelationship Name="owsh_owsh_testtable_contact" />

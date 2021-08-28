@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21074.129" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21081.140" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>PracticeSolution</UniqueName>
     <LocalizedNames>
@@ -82,10 +82,15 @@
       <RootComponent type="1" schemaName="bookableresource" behavior="1" />
       <RootComponent type="1" schemaName="contact" behavior="1" />
       <RootComponent type="1" schemaName="incident" behavior="1" />
+      <RootComponent type="1" schemaName="leadtoopportunitysalesprocess" behavior="0" />
       <RootComponent type="1" schemaName="msdyn_workorder" behavior="1" />
       <RootComponent type="1" schemaName="opportunity" behavior="1" />
+      <RootComponent type="1" schemaName="owsh_bussinessprocessflowcontact" behavior="0" />
       <RootComponent type="1" schemaName="owsh_testtable" behavior="0" />
+      <RootComponent type="29" id="{1945ea6a-59cc-4eaf-88e4-c1cdc97c5678}" behavior="0" />
       <RootComponent type="29" id="{34ff39a1-362e-4c38-a6e9-03faf3db3b7a}" behavior="0" />
+      <RootComponent type="29" id="{6d203960-0f5b-4484-822e-12fd0bfdd65e}" behavior="0" />
+      <RootComponent type="29" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" behavior="0" />
       <RootComponent type="62" schemaName="owsh_PracticeApp" behavior="0" />
       <RootComponent type="80" schemaName="owsh_PracticeApp" behavior="0" />
     </RootComponents>
@@ -122,6 +127,78 @@
         <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
           <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
         </Required>
+        <Dependent type="62" schemaName="owsh_PracticeApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent type="62" schemaName="owsh_PracticeApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="activestageidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="createdbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="createdbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="createdonbehalfbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="leadidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="leadidyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="modifiedbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="modifiedbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="opportunityidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="organizationidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="processidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="2" schemaName="transactioncurrencyidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent type="62" schemaName="owsh_PracticeApp" />
       </MissingDependency>
       <MissingDependency>
@@ -447,6 +524,10 @@
         <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="29" displayName="Lead to Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" />
+        <Dependent type="29" displayName="Lead to Opportunity Sales Process" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}">
           <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
         </Required>
@@ -633,7 +714,7 @@
         <Dependent type="60" displayName="account card" parentDisplayName="Account" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Case for Multisession experience" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.21074.1004)" id="{b05c1e9c-94d0-46c1-8968-df49b8f33ec7}">
+        <Required type="60" displayName="Case for Multisession experience" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.21074.1007)" id="{b05c1e9c-94d0-46c1-8968-df49b8f33ec7}">
           <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
         </Required>
         <Dependent type="60" displayName="Case for Multisession experience" parentDisplayName="Case" id="{b05c1e9c-94d0-46c1-8968-df49b8f33ec7}" />
@@ -683,7 +764,7 @@
         <Dependent type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" solution="msdynce_ServicePatch201911 (9.0.21074.1004)" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}">
+        <Required type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" solution="msdynce_ServicePatch201911 (9.0.21074.1007)" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}">
           <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
         </Required>
         <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
@@ -715,7 +796,7 @@
         <Dependent type="60" displayName="Recent Cases and Entitlements" parentDisplayName="Contact" id="{f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Case Quick Create for Multisession" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.21074.1004)" id="{f43b46e9-17a4-4443-afc4-141d40a46f22}">
+        <Required type="60" displayName="Case Quick Create for Multisession" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.21074.1007)" id="{f43b46e9-17a4-4443-afc4-141d40a46f22}">
           <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
         </Required>
         <Dependent type="60" displayName="Case Quick Create for Multisession" parentDisplayName="Case" id="{f43b46e9-17a4-4443-afc4-141d40a46f22}" />
@@ -735,7 +816,7 @@
         <Dependent type="60" displayName="App for Outlook Account Card" parentDisplayName="Account" id="{fb65cc73-181c-468b-9bb3-82ecde306991}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Account for Multisession experience" parentDisplayName="Account" solution="msdynce_ServicePatch201911 (9.0.21074.1004)" id="{ff49442f-8c60-4877-bdae-8fe51e6f4636}">
+        <Required type="60" displayName="Account for Multisession experience" parentDisplayName="Account" solution="msdynce_ServicePatch201911 (9.0.21074.1007)" id="{ff49442f-8c60-4877-bdae-8fe51e6f4636}">
           <package>msdynce_ServiceAnchor (9.0.21074.1004)</package>
         </Required>
         <Dependent type="60" displayName="Account for Multisession experience" parentDisplayName="Account" id="{ff49442f-8c60-4877-bdae-8fe51e6f4636}" />
@@ -799,11 +880,11 @@
         <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2107.4011)" />
+        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2107.5010)" />
         <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2107.4011)" />
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2107.5010)" />
         <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       </MissingDependency>
       <MissingDependency>

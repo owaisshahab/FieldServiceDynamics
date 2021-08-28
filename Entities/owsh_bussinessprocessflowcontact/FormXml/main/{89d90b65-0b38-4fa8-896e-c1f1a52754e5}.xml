@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{89d90b65-0b38-4fa8-896e-c1f1a52754e5}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5c0f2ee1-f8d4-4440-9c26-2befa8732e08}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{fea868e7-ef7e-4a61-980e-0e5e2c79b699}">
+          <labels>
+            <label description="New Stage 1" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{968fed52-eaeb-a38b-3b5a-a7c14681856c}" name="StageStep3_section1" labelid="{4d6db282-10b2-459f-b181-2a68614a638d}">
+                  <labels>
+                    <label description="New Stage 1" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{db1ac7ad-b568-4974-b4fe-6ee14e412f12}" showlabel="true" visible="true" labelid="{4a25130a-4e13-457b-9944-d1eb9b23c9da}">
+                        <labels>
+                          <label description="New Step 1" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_owsh_bussinessprocessflowcontact:lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="lastname" disabled="false" relationship="bpf_contact_owsh_bussinessprocessflowcontact" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93dec632-ad12-4df7-959a-37c78238ab74}" showlabel="true" visible="true" labelid="{f03eded6-3191-4c5b-9caa-52107da866eb}">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_owsh_bussinessprocessflowcontact:parentcustomerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="parentcustomerid" disabled="false" relationship="bpf_contact_owsh_bussinessprocessflowcontact" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{48d31f4c-aca0-4703-9ad6-c50f5d144a12}" name="StageStep9" locklevel="0" expanded="true" visible="false" labelid="{d9d92382-4dcc-474d-bc9e-0744c6e74a84}">
+          <labels>
+            <label description="New Stage 2" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{30afafed-c7f1-427d-0ae2-5745a393601a}" name="StageStep9_section1" labelid="{10e31c2e-727a-4ccd-b7b5-87de2ce07590}">
+                  <labels>
+                    <label description="New Stage 2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b99d22ea-5f62-4136-9206-39d8e63f5aa1}" showlabel="true" visible="true" labelid="{0d117831-4598-42c2-bb57-aa49abf0556a}">
+                        <labels>
+                          <label description="New Step 1" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_owsh_bussinessprocessflowcontact:firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="firstname" disabled="false" relationship="bpf_contact_owsh_bussinessprocessflowcontact" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{145ef0d7-ca99-466a-a73e-7f38373a1bb6}" showlabel="true" visible="true" labelid="{2b802bbc-a906-4b85-a11e-43cb8c66e55d}">
+                        <labels>
+                          <label description="New Step 2" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_owsh_bussinessprocessflowcontact:jobtitle" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="jobtitle" disabled="false" relationship="bpf_contact_owsh_bussinessprocessflowcontact" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{d3e3beef-23bc-451d-baa2-921868bc1faf}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{6e525cbd-49ad-42df-afb3-b7cc41863206}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5c71e251-f129-ac2e-db59-fd0f8d85a46a}" name="StageStep15_section1" labelid="{1c03b9d7-8dbe-4cb2-8a3a-2316b199293e}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{89606c2e-04e3-48fd-9f8e-d0948999aca6}" showlabel="true" visible="true" labelid="{df3f9831-7c04-4566-b445-f16fdfc03fbd}">
+                        <labels>
+                          <label description="Address 1: Address Type" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_owsh_bussinessprocessflowcontact:address1_addresstypecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="address1_addresstypecode" disabled="false" relationship="bpf_contact_owsh_bussinessprocessflowcontact" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{f4d034c1-e44e-453c-b146-4649694a6805}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{d3c5a846-f0d1-4392-82a6-7dc0256edf70}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{31fd7974-bda6-fffe-f259-2502b4eb7121}" name="StageStep19_section1" labelid="{71f148c8-8c3f-464c-a8c5-87ff5d2c6136}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a8f159a7-21bf-4307-9bb2-dbc66fc667f4}" showlabel="true" visible="true" labelid="{0224eb91-60f5-462e-9b07-b10fe4ec7fde}">
+                        <labels>
+                          <label description="Address 1: Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_owsh_bussinessprocessflowcontact:address1_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_name" disabled="false" relationship="bpf_contact_owsh_bussinessprocessflowcontact" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

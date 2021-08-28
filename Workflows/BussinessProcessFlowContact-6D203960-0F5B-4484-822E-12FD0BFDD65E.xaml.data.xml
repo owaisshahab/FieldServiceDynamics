@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{6d203960-0f5b-4484-822e-12fd0bfdd65e}" Name="Bussiness Process Flow Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BussinessProcessFlowContact-6D203960-0F5B-4484-822E-12FD0BFDD65E.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;Role Id="{58D30BD3-A0B5-43DF-BB69-86027F9F39D8}" /&gt;&lt;Role Id="{EA421508-DFB4-468A-A279-A306FE64DA6A}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>owsh_bussinessprocessflowcontact</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>1</BusinessProcessType>
+  <FormId>{f0157def-b7d9-46ae-946b-4b63fc6837f4}</FormId>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Bussiness Process Flow Contact" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{5c56efb0-6f9f-4aa2-8042-553d40c9099c}" />
+  </labels>
+</Workflow>
